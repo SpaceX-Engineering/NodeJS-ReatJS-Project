@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* MY CSS File */
+* {
+  box-sizing: border-box;
+}
+.container {
+      height: 465px;
+      width: 275px;
+      background-color: #313240;
+      overflow: hidden;
+      border: 3px solid  #f16022;
+      color:white;
+}
+    /* Create two equal columns that floats next to each other */
+.datain {
+  
+  float: left;
+  text-align: left;
+  height:310px;
+  width: auto;
+  padding: 25px;
+  background: #f16022;
+  margin: 20px;
+  margin-top: 3px;
+}
+.dataout {
+  
+  float: left;
+  height: 270px;
+  width: 300px;
+  padding: 15px;
+  background: #77ab59;
+  margin: 20px;;
+}
+.item {
+  
+  float: right;
+  height: 50px;
+  width: auto;
+  padding: 15px;
+  background: #77ab59;
+  margin: 20px;;
+}
+.button_ans{
+  background-color: #77ab59;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 175px;
+}
+.button_form{
+  background-color: #f16022;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 175px;
+  
+}
+a {
+  color: white;
+}
+a:hover {
+  color: #f16022;
+}
+
+
+.container-login {
+  height: 400px;
+  width: 275px;
+  background-color: #313240;
+  overflow: hidden;
+  border: 3px solid  #f16022;
+  color:white;
+}
+/* Create two equal columns that floats next to each other */
+.datain-login {
+
+float: left;
+text-align: left;
+height:235px;
+width: auto;
+padding: 25px;
+background: #f16022;
+margin: 20px;
+margin-top: 3px;
+}
+
+.container-products{
+  align-content: center;
+  float: left;
+  text-align: left;
+  height: auto;
+  width: auto;
+  background-color: #313240;
+  overflow: hidden;
+  border: 3px solid  #f16022;
+  color:white;
+  /* display: flex; */
+  align-items: center;
+}
+
+table th, td {
+  border: 1px dotted white;
+  border-collapse: collapse;
+  width:50%;
+  
+}
+.container-food {
+  height: 415px;
+  width: 275px;
+  background-color: #313240;
+  overflow: hidden;
+  border: 3px solid  #f16022;
+  color:white;
+}
+
+.allproducts {
+  height: 400px;
+  width: 275px;
+  background-color: #313240;
+  overflow: hidden;
+  border: 3px solid  #f16022;
+  color:white;
+}
